@@ -7,3 +7,4 @@ Gestión de un almacén
 
 - David González Sola
 - [Jorge González Peregrín](https://github.com/Georgevik)
+- [Jorge León Fernández](https://github.com/jorgeles)
