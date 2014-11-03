@@ -1,7 +1,8 @@
 HarmacenCloud
 =============
 
-Gestión de un almacén
+* Tipo de proyecto: SaaS/PaaS
+* Gestión integral del material a reciclar, desde solicitud de recogida hasta entrega por donación del mismo. Uso de QRs para controlar su presencia, control de stocks, sacar informes (tiempo desde solicitud hasta recogida, tiempo en almacén, destino de los ordenadores donados)
 
 ## Componentes del equipo
 
