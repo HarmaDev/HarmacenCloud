@@ -1,0 +1,21 @@
+# Site settings
+title: HarmacenCloud
+# email: your-email@domain.com
+
+description: > # this means to ignore newlines until "baseurl:"
+  HarmacenCloud es una aplicaci&oacute;n cloud que permite la gesti&oacute;n de un almac&eacute;n,
+  entradas y salidas, uso de QRs para controlar la presencia, control de stocks o sacar informes.
+baseurl: "/HarmacenCloud" # the subpath of your site, e.g. /blog/
+url: "https://HarmaDev.github.io" # the base hostname & protocol for your site
+
+# twitter_username: not_exists
+github_username:  HarmaDev
+
+developer_team: HarmaDev
+
+# Build settings
+markdown: kramdown
+
+# or remove the 'pygments' line entirely
+# pygments:         false
+highlighter:      rouge
