@@ -18,4 +18,4 @@ markdown: kramdown
 
 # or remove the 'pygments' line entirely
 # pygments:         false
-highlighter:      rouge
+# highlighter:      rouge
