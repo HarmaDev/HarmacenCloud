@@ -3,7 +3,7 @@ Descargaos [aquí](https://cloud.google.com/appengine/downloads#Google_App_Engin
 Si quereis el plugin para Eclipse lo tenéis [aquí](https://cloud.google.com/appengine/downloads#Google_App_Engine_SDK_for_Python):
 
 Os saldrá una pantalla parecida a esta:
-![imagen](http://es.tinypic.com/r/14j80if/8 "Pantalla principal")
+![imagen](http://oi59.tinypic.com/14j80if.jpg)
 
 Le dais a "+" y añadis un nuevo app engine. El ID de la aplicación no puede contener mayúsculas.
 
