@@ -1,7 +1,5 @@
 Descargaos [aquí](https://cloud.google.com/appengine/downloads#Google_App_Engine_SDK_for_Python) el SDK de para desarrollar en AppEngine. Lo instalais y lo inciais
 
-Si quereis el plugin para Eclipse lo tenéis [aquí](https://developers.google.com/eclipse/docs/download):
-
 Os saldrá una pantalla parecida a esta:
 ![imagen](http://oi59.tinypic.com/14j80if.jpg)
 
