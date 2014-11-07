@@ -14,3 +14,4 @@ HarmacenCloud
 
 ## Certamen de Proyectos Libres de la UGR
 Este proyecto está inscrito en el Certamen de Proyectos Libres de la UGR 2014-2015.
+[Bases del concurso](http://osl.ugr.es/bases-de-los-premios-a-proyectos-libres-de-la-ugr/)
