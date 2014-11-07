@@ -2,20 +2,10 @@ HarmacenCloud
 =============
 
 * Tipo de proyecto: SaaS/PaaS
-## Pasos de Desarrollo
-
-- Entrevista con el cliente
-- Analizar y extraer los requisitos del proyecto
-- Aprender el lenguaje Python
-- Conocer el entorno desarrollo Google App Engine
-- Diseñar la implantanción del proyecto en Google App Engine
-- Dividir la tareas de implementación
-- Implementar el proyecto
-- Validar el producto
 
 ## Descripción del proyecto
  
-Gestión integral del material a reciclar, desde solicitud de recogida hasta entrega por donación del mismo. Uso de QRs para controlar su presencia, control de stocks, sacar informes (tiempo desde solicitud hasta recogida, tiempo en almacén, destino de los ordenadores donados).
+Desarrollar un servicio para la gestión integral del material a reciclar de un almacén, desde solicitud de recogida hasta entrega por donación del mismo. Se utilizarán códigos QRs o la tecnología NFC para el control del stock del almacén en tiempo real. Además se podrán generar informes que incluyan tiempo de solicitud hasta recogida, tiempo en almacén, destino de los ordenadores donados.
 
 ## Componentes del equipo
 
@@ -28,6 +18,17 @@ Gestión integral del material a reciclar, desde solicitud de recogida hasta ent
 ## Motivación del proyecto
 
 La principal motivación de haber elegido este proyecto es realizar una aplicación para la gestión del almacen de productos informáticos de la Oficina de Software Libre de la Universidad de Granada, abriendo a la posibilidad de implantarnos en el comercio local de Granada. Todo esto sin perder de vista la ampliación de conocimientos en el desarrollo y despliegue de servicios en la "nube".
+
+## Pasos de Desarrollo
+
+- Entrevista con el cliente
+- Analizar y extraer los requisitos del proyecto
+- Aprender el lenguaje Python
+- Conocer el entorno desarrollo Google App Engine
+- Diseñar la implantanción del proyecto en Google App Engine
+- Dividir la tareas de implementación
+- Implementar el proyecto
+- Validar el producto
 
 ## Certamen de Proyectos Libres de la UGR
 
