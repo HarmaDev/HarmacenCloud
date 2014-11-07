@@ -1,7 +1,6 @@
 HarmacenCloud
 =============
 
-* Tipo de proyecto: SaaS/PaaS
 
 ## Descripción del proyecto
  
