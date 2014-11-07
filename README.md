@@ -2,7 +2,20 @@ HarmacenCloud
 =============
 
 * Tipo de proyecto: SaaS/PaaS
-* Gestión integral del material a reciclar, desde solicitud de recogida hasta entrega por donación del mismo. Uso de QRs para controlar su presencia, control de stocks, sacar informes (tiempo desde solicitud hasta recogida, tiempo en almacén, destino de los ordenadores donados).
+## Pasos de Desarrollo
+
+- Entrevista con el cliente
+- Analizar y extraer los requisitos del proyecto
+- Aprender el lenguaje Python
+- Conocer el entorno desarrollo Google App Engine
+- Diseñar la implantanción del proyecto en Google App Engine
+- Dividir la tareas de implementación
+- Implementar el proyecto
+- Validar el producto
+
+## Descripción del proyecto
+ 
+Gestión integral del material a reciclar, desde solicitud de recogida hasta entrega por donación del mismo. Uso de QRs para controlar su presencia, control de stocks, sacar informes (tiempo desde solicitud hasta recogida, tiempo en almacén, destino de los ordenadores donados).
 
 ## Componentes del equipo
 
