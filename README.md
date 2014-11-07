@@ -11,3 +11,6 @@ HarmacenCloud
 - [Jorge León Fernández](https://github.com/jorgeles)
 - [Jose Manuel Rosell Sánchez](https://github.com/jmrosell)
 - [Antonio Toro Fernández](https://github.com/antorof)
+
+## Certamen de Proyectos Libres de la UGR
+Este proyecto está inscrito en el Certamen de Proyectos Libres de la UGR 2014-2015.
