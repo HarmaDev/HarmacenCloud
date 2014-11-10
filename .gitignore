@@ -1,1 +1,5 @@
 *.md~
+
+# gh-pages
+_site
+.sass-cache
