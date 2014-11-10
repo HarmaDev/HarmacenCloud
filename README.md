@@ -35,6 +35,6 @@ Este proyecto está inscrito en el Certamen de Proyectos Libres de la UGR 2014-2
 
 [Bases del concurso](http://osl.ugr.es/bases-de-los-premios-a-proyectos-libres-de-la-ugr/)
 
-## Licenia
+## Licencia
 
 Todo el proyecto está bajo licencia Apache 2.0: [Licencia](https://github.com/HarmaDev/HarmacenCloud/blob/master/LICENSE)
