@@ -14,10 +14,10 @@
 */
 
 function doGet( e ) {
-QUnit.urlParams( e.parameter );
+/*QUnit.urlParams( e.parameter );
 QUnit.config({ title: "Unit tests for my project" });
 QUnit.load( doIt );
-return QUnit.getHtml();
+return QUnit.getHtml();*/
 
 return doIt();
 };
