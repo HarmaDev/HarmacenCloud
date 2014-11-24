@@ -1,5 +1,6 @@
 *.md~
 *.gs~
+*~
 
 # gh-pages
 _site
