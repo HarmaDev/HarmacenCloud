@@ -1,0 +1,16 @@
+{
+  "files":[
+    {
+      "id":"53f6cd48-5305-47f1-926e-318ba58649d3",
+      "name":"Main",
+      "type":"server_js",
+      "source":"/**\n* Copyright 2014 HARMACEN CLOUD\n*\n* Licensed under the Apache License, Version 2.0 (the \"License\");\n* you may not use this file except in compliance with the License.\n* You may obtain a copy of the License at\n*\n* http://www.apache.org/licenses/LICENSE-2.0\n* Unless required by applicable law or agreed to in writing, software\n* distributed under the License is distributed on an \"AS IS\" BASIS,\n* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n* See the License for the specific language governing permissions and\n* limitations under the License.\n*/\n\n\nfunction doGet() \n{\n  // Crea la aplicación\n  var app \u003d UiApp.createApplication();\n  var body \u003d app.createFlowPanel();\n  body.setStyleAttributes(css.body);\n  \n  // Crea un label y un textBox\n  var label \u003d app.createLabel(\u0027Label\u0027).setStyleAttributes(css.h1);\n  var textBox \u003d app.createTextBox().setId(\u0027tb\u0027).setName(\u0027tb\u0027);\n  \n  // Añade un boton y se le pone el estilo\n  var button \u003d app.createButton(\u0027Boton\u0027);\n  button.setStyleAttributes(css[\"btn-blue\"]);\n\n  // Se construye la aplicacion y se devuelve\n  body.add(label)\n      .add(textBox)\n      .add(button);\n  app.add(body);\n  \n  return app;\n}\n"
+    },
+    {
+      "id":"47dad35f-3b6a-4ea8-b927-bfe1f9137f11",
+      "name":"style",
+      "type":"server_js",
+      "source":"/**\n* Copyright 2014 HARMACEN CLOUD\n*\n* Licensed under the Apache License, Version 2.0 (the \"License\");\n* you may not use this file except in compliance with the License.\n* You may obtain a copy of the License at\n*\n* http://www.apache.org/licenses/LICENSE-2.0\n* Unless required by applicable law or agreed to in writing, software\n* distributed under the License is distributed on an \"AS IS\" BASIS,\n* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n* See the License for the specific language governing permissions and\n* limitations under the License.\n*/\n\n/**\n * Overwrites obj1\u0027s values with obj2\u0027s and adds obj2\u0027s if non existent in obj1\n * @param obj1\n * @param obj2\n * @returns obj3 a new object based on obj1 and obj2\n */\nfunction _mergeObjects(obj1,obj2){\n    var obj3 \u003d {};\n    for (var attrname in obj1) { obj3[attrname] \u003d obj1[attrname]; }\n    for (var attrname in obj2) { obj3[attrname] \u003d obj2[attrname]; }\n    return obj3;\n}\nvar css\u003d{};\n\n\ncss.body \u003d { \n  width:\u002770%\u0027, \n  padding:\u002720px\u0027,\n  margin:\"0px auto\",\n  \"text-align\":\"center\"\n};\n\ncss.h1 \u003d {\n  \"font-size\":\"42px\"\n};\n\ncss[\"boton-normal\"] \u003d {\n  color: \"#ffffff\",\n  border: \"none\",\n  \"background\": \"#333333\",\n  padding: \"10px 18px\",\n  \"font-size\": \"15px\",\n  //outline:\"none\"\n};\n\ncss[\"btn-blue\"] \u003d _mergeObjects(css[\"boton-normal\"],{\n\t\"background-color\": \"#007FFF\"\n});\n"
+    }
+  ]
+}
