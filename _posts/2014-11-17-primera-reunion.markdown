@@ -10,33 +10,21 @@ que tenemos que hacer.
 
 De la entrevista pudimos extraer información acerca de cómo se gestiona actualmente. 
 Los aparatos se registran en una hoja de cálculo de _Google_ y se les asocia un código. En esa hoja de cálculo se 
-almacena también el estado, lugar en el que está
+almacena también el estado, lugar en el que está, etc.
 
+El proceso de recogida es el siguiente:
+1. Para que la __OSL__ recoja aparatos el interesado tiene que rellenar un [formulario](sl.ugr.es/mi_uca).
+2. Se avisa por correo a la __OSL__ de esta petición.
+3. Hay que generar una orden de recogida.
+4. Hay que concertar una cita con el cliente.
+4. Hay que reservar una furgoneta.
+6. Se generan unos albaranes de entrega, que después son firmados por la persona que entregue los aparatos.
 
+Es importante que se implemente:
+ - Generación de informes automáticamente
+   + Informes para la _Unidad de Calidad Medioambiental (UCA)_
+   + Ordenadores recogidos, ordenadores donados
+   + Sitios de recogida
+ - Generación de informes en distintos formatos
+ - Generación y utilización de códigos QR para facilitar las tareas de identificación, traspaso, etc.
 
-•	la gente solicita una recogida a traves de un formulari ->sl.ugr.es/mi_uca
-•	Codigos para recogidas para evitar fraudes, arbitrario lo pone el cliente
-•	importante que esten en buen estado
-•	en una recogida puede haber varios estados
-
-•	se envia un correo y se queda para la recogida
-•	se genera una orden de recogida -> redmine
-•	se genera una orden para la furgoneta a un correo
-•	Generacion de albaranes de recogida
-•	se recoge el producto y se le da un albaran donde firma el hombre de que la OSL ha recogido todo.
-•	Generacion de ordenes a UCA para aquellos materiales no reutilizables??
-
-•	Una vez en el amacen
-•	Hay una hoja de calculo donde están todas las referencias de lo que se ha recogido
-•	Se asocia un código a cada articulo una vez que entra un objeto
-
-•	Generacion de informes automáticos. Donde se han recogido, contenido, peso, numero. -> Para la UCA, OSL y ponencias. Una vez automática.
-•	Ordenadores recogidos, ordenadores donados -> 1º informe
-•	Sitios de recogida -> 2º Informe
-
-•	Repercusion en indicadores medio ambientale.
-•	Informes en CSV
-
-Importante trabajar con Drive
-Google AppEngine con Script de Drive? solo script de Drive
-Lector de QR en movil para el traspaso de artículos de un stock a otro.
