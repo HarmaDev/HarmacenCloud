@@ -261,7 +261,7 @@ app.add(panel);
 /*
 *Testeamos que los paneles se han creado y no estan undefined
 */
-test("Panel 1 Creado", 1, function() {
+/*test("Panel 1 Creado", 1, function() {
 ok(panel1 != undefined);
 });
 
@@ -311,7 +311,7 @@ ok(button != undefined);
 /*
 *Probamos la funcionalidad de los botones de añadir y eliminar
 */
-test("Añadida fila", 1, function() {
+/*test("Añadida fila", 1, function() {
 var table = app.getElementById('table');
 var nRows = parseInt(table.getTag());
 addMemebrRow(app);
@@ -329,7 +329,7 @@ removeMemebrRow(app);
 var table2 = app.getElementById('table');
 var nRows2 = parseInt(table.getTag());
 ok(nRows-1 == nRows2);
-});
+});*/
 
 
 return app;
