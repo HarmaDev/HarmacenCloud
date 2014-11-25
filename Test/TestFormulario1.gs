@@ -94,6 +94,7 @@ var dniTB = app.createTextBox().setId('DNI').setName('dni')
 
 panel3.add(app.createLabel('').setWidth(150)).add(dniLB).add(dniTB).add(app.createLabel('').setWidth(140));
 */
+    
 var panel4 = app.createHorizontalPanel().setWidth(920)
 .setStyleAttribute("background", "Lavender")
 .setStyleAttribute("font-size", "110%")
