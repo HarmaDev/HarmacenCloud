@@ -4,8 +4,9 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+__HarmacenCloud__ y __HarmacenCloud Blog__ están desarrollados y mantenidos por el equipo __HarmaDev__.
 
-You can find the source code for the Jekyll new theme at: [github.com/jglovier/jekyll-new](https://github.com/jglovier/jekyll-new)
+Puedes consultarnos en GitHub.
 
-You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
+ - [HarmaDev](https://github.com/{{ site.github_username }})
+ - [HarmacenCloud](https://github.com/HarmaDev/HarmacenCloud)
