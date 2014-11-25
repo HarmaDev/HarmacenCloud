@@ -13,6 +13,7 @@ Los aparatos se registran en una hoja de cálculo de _Google_ y se les asocia un
 almacena también el estado, lugar en el que está, etc.
 
 El proceso de recogida es el siguiente:
+
 1. Para que la __OSL__ recoja aparatos el interesado tiene que rellenar un [formulario](sl.ugr.es/mi_uca).
 2. Se avisa por correo a la __OSL__ de esta petición.
 3. Hay que generar una orden de recogida.
@@ -21,10 +22,11 @@ El proceso de recogida es el siguiente:
 6. Se generan unos albaranes de entrega, que después son firmados por la persona que entregue los aparatos.
 
 Es importante que se implemente:
+
  - Generación de informes automáticamente
-   + Informes para la _Unidad de Calidad Medioambiental (UCA)_
-   + Ordenadores recogidos, ordenadores donados
-   + Sitios de recogida
+    + Informes para la _Unidad de Calidad Medioambiental (UCA)_
+    + Ordenadores recogidos, ordenadores donados
+    + Sitios de recogida
  - Generación de informes en distintos formatos
  - Generación y utilización de códigos QR para facilitar las tareas de identificación, traspaso, etc.
 
