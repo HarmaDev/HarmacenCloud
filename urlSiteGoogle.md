@@ -1,4 +1,4 @@
-URL del sites de Google "Harmace"
-=================================
+URL del sites de Google "Harmacen"
+==================================
 
-https://sites.google.com/site/harmacen/
+Sitio de "Harmacen" en [Google Sites](https://sites.google.com/site/harmacen/)
