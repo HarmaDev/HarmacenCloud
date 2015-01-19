@@ -459,10 +459,8 @@ function _elegidoMaterial(e){
  
  
 function _processSubmittedData(e){
-  
-  //<idHoja> es el identificador de la hoja en el drive (en la url de la hoja de calculo al final: key=<id>)
-  var ss = SpreadsheetApp.openById("1tqM5nwviznop5wP3OnBlT-DYmIWpBtjn7vNoDvNoMaY");
-  var sheet = ss.getSheetByName("Recogidas");
+  var ss = SpreadsheetApp.openById(config.idSpreadSheet);
+  var sheet = ss.getSheetByName(config.idSheet);
   var app = UiApp.getActiveApplication();
   
   var range = sheet.getDataRange().getValues();
@@ -533,7 +531,7 @@ function _processSubmittedData(e){
                        +"Muchas gracias."
                        +'\n'+"La Oficina de Software Libre::Universidad de Granada.";
      
-     MailApp.sendEmail(e.parameter.correo, emailSubject, emailContent);
+     // MailApp.sendEmail(e.parameter.correo, emailSubject, emailContent);
         
        try{       
        

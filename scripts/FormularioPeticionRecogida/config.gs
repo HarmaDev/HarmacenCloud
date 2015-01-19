@@ -26,3 +26,5 @@ var personal = [
 ];
 
 config.email = 'harmacencloud@gmail.com';
+config.idSpreadSheet = '1tqM5nwviznop5wP3OnBlT-DYmIWpBtjn7vNoDvNoMaY';
+config.idSheet = 'Peticiones';
