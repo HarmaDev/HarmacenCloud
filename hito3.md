@@ -15,4 +15,10 @@ En el caso de nuestro proyecto no tiene sentido crear una jaula o un contenedor,
 
 Ya que no es necesario para nuestro proyecto crear jaulas o contenedores, no es necesario crear script que automaticen la tarea de crear los contenedores o jaulas para hacer pruebas sobre ellos. En cuanto a las operaciones de [despliegue](https://sites.google.com/site/harmacen/) e integración continua ya las habiamos realizado en el hito anterior, por lo que en este hito nos vamos a dedicar a ampliar la funcionalidad de nuestra aplicación para gestión de un almacen.
 
-La funcionalidad añadida es....
+## Funcionalidad añadida
+
+### Envío de email en el formulario de recogida
+
+El formulario de recodiga **Formulario1.gs** ahora envía un correo con el material a recoger así como la información rellenada por el usuario en el formulario a la siguiente dirección de correo electrónica: *harmacencloud@gmail.com*.
+
+Si ha dado un error al leerse el formulario de recogida también enviará un correo electrónica a la misma dirección anterior con el fin de que *harmadev* pueda detectar algún posible fallo en el formulario.
