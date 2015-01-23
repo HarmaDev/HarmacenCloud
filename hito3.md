@@ -22,3 +22,7 @@ Ya que no es necesario para nuestro proyecto crear jaulas o contenedores, no es 
 El formulario de recodiga **Formulario1.gs** ahora envía un correo con el material a recoger así como la información rellenada por el usuario en el formulario a la siguiente dirección de correo electrónica: *harmacencloud@gmail.com*.
 
 Si ha dado un error al leerse el formulario de recogida también enviará un correo electrónica a la misma dirección anterior con el fin de que *harmadev* pueda detectar algún posible fallo en el formulario.
+
+### Envío de email y creación de calendario
+
+Se trata de un formulario donde se introduce el correo, una localización para efectuar la recogida, una fecha y una descripcion. De este modo, se le enviará al correo indicado la descripción indicando la fecha y hora de recogida y al que rellenó el formulario insertará en su Google Calendar el evento de la recogida.
