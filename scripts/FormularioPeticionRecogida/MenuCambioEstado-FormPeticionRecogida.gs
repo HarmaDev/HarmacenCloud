@@ -46,9 +46,11 @@ function marcarCancelada() {
 
 function marcarFila(caso) {
   var ss = SpreadsheetApp.getActiveSpreadsheet();
+  var sheet = ss.getSheets()[0];
   //var range = ss.getActiveCell();
   //Browser.msgBox("You have selected row " + ss.getActiveCell().getRow());
-  //var row = ss.getActiveCell().getRow();
+  var row = ss.getActiveCell().getRow();
+  var numColumns = ss.getRowHeight(row);
   
   var color;
   switch (caso) {
@@ -56,5 +58,7 @@ function marcarFila(caso) {
       case 1: color = colores.procesada; break;
       case 2: color = colores.cancelada; break;
   }
-  ss.getActiveRange().setBackground(color);
+  
+  //ss.getActiveRange().setBackground(color);
+  sheet.getRange(row, 1, 1, numColumns).setBackground(color);
 }
