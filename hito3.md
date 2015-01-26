@@ -26,3 +26,7 @@ Si ha dado un error al leerse el formulario de recogida también enviará un cor
 ### Envío de email y creación de calendario
 
 Se trata de un formulario donde se introduce el correo, una localización para efectuar la recogida, una fecha y una descripcion. De este modo, se le enviará al correo indicado la descripción indicando la fecha y hora de recogida y al que rellenó el formulario insertará en su Google Calendar el evento de la recogida.
+
+### Automatización de la gestión de Peticiones
+
+Se ha automatizado la gestión de las peticiones, de manera que al realizar un cliente una petición se recoge en una hoja de calculo. Además cuando se realiza esta recogida se ha añadido un opción en la hoja de calculo que permite modificar el estado de la petición y mover los objetos ya recogidos de la hoja con las peticiones a la hoja que contiene el inventario.Tambien es posible mover los distintos elementos que estan en cada hoja de calculo a otra hoja, de manera que la copia y eliminación de los elementos se realiza de manera automatica.
