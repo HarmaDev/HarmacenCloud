@@ -29,4 +29,4 @@ Se trata de un formulario donde se introduce el correo, una localización para e
 
 ### Automatización de la gestión de Peticiones
 
-Se ha automatizado la gestión de las peticiones, de manera que al realizar un cliente una petición se recoge en una hoja de calculo. Además cuando se realiza esta recogida se ha añadido un opción en la hoja de calculo que permite modficar el estado de la petición y mover los objetos ya recogidos de la hoja con las peticiones a la hoja que contiene el inventario.
+Se ha automatizado la gestión de las peticiones, de manera que al realizar un cliente una petición se recoge en una hoja de calculo. Además cuando se realiza esta recogida se ha añadido un opción en la hoja de calculo que permite modificar el estado de la petición y mover los objetos ya recogidos de la hoja con las peticiones a la hoja que contiene el inventario.
